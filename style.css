@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #222;
+}
+
+.keyPressed,
+.keyCode,
+.charCode,
+.eventType {
+    color: #f5ee62;
+    
+}
+
+.output p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 5px;
+    font-family: Arial, sans-serif;
+    
+}
+.output {
+    border-left: 2px solid gold;
+}
+
+input {
+    width: 25vw;
+    height: 3rem;
+    font-size: 2rem;
+}
+
+input::placeholder {
+    font-size: 1rem;
+    font-style: italic;
+    align-items:  center;
+
+}
+H1 {
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border: 1px solid #f5ee62;
+}
